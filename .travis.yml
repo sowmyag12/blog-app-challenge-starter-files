@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: X6PUXaNwdEgAKFg69jfokWvrZNkBiwZpMx0KZ6sKJIZquzeXFNdLdJVR+FXX1Y2bB897Bt2v8XQwjt9MctMz9yDgCx3zUBt7zC37WafgJl1geNKXsHBQN8WNxJHbm8IK/1N7A6vJnkxvp4wKXKqXZcJ22XhtISemPvA47CRMHcaAlYxeAGXBtupfwD6wAzQqv2ksRN5uDuv6RjYeeaLd8ZCiDTsaJHj73LVn2ScnezlOxEnj/4kEbgyi+yxQ0SvfPJm2Gv36sHBmXp+/ihB5yKiUoQ/7bcPuYzSKXlVkrNrQ1WnAaQTTxSbyQBEQq0gYTGHRD8CTgfoDKW7YJtWOx+xW9KzlXcCdD7GIXBUXoEwnGyov19SQIMyi/7sqq9JsglI1lNccMBnL/rhkRrFQnzoJy5yxiODkIOsyE3buQi2rJ9mubEwanWKVJTDx2Fk+z+Ik6IF15CYFeJ+zP9unBItFwd5J4EHdAJmJQDs/4wuu1H+IU/6PDNmbNcLOd1ktdwoa4/HfXoJxor9Wrq9e/Ci13p5fI3X0VD1U1vxFDE7PBLnKPi6ndc7UYTc7zzjkJuFMa3AnpC0J0m6NjHYEqtTVDTfr63mn0CT/4qi0TONwD5hCpaTUqguv8DZea/RUVZZCr5iQ4ZYf5RWTDQbU8t7/5wGb552MmApvluiGGUc=
+  app: blog-app-challenge-starter-files
+  on:
+    repo: sowmyag12/blog-app-challenge-starter-files
